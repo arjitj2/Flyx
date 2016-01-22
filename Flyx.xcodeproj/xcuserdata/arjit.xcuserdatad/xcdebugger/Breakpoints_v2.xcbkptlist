@@ -6,16 +6,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flyx/MoviesViewController.swift"
+            timestampString = "474963786.555552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flyx.MoviesViewController.viewDidLoad (Flyx.MoviesViewController)() -&gt; ()"
+                  moduleName = "Flyx"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arjit/Google%20Drive/UIUC/Freshman%20Year/Projects/CodePath/Flyx/Flyx/MoviesViewController.swift"
+                  timestampString = "474963299.535178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1346">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flyx.MoviesViewController.(viewDidLoad (Flyx.MoviesViewController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "Flyx"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arjit/Google%20Drive/UIUC/Freshman%20Year/Projects/CodePath/Flyx/Flyx/MoviesViewController.swift"
+                  timestampString = "474963299.535323"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "911">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Flyx/MoviesViewController.swift"
-            timestampString = "474959089.92634"
+            timestampString = "474963786.555552"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
