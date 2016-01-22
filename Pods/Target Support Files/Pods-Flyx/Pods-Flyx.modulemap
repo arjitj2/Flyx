@@ -1,0 +1,6 @@
+framework module Pods_Flyx {
+  umbrella header "Pods-Flyx-umbrella.h"
+
+  export *
+  module * { export * }
+}
