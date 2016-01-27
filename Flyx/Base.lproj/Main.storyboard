@@ -8,7 +8,6 @@
         <!--Navigation Controller-->
         <scene sceneID="AX2-eb-dbD">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8XW-jL-bez" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="rR6-l7-e9f" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="b48-sh-yXj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -18,6 +17,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4DO-z6-3pO"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8XW-jL-bez" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-254" y="296"/>
         </scene>
@@ -75,7 +75,7 @@
                     <navigationItem key="navigationItem" title="Now Playing" id="ybh-u2-WL4">
                         <barButtonItem key="rightBarButtonItem" title="Grid :D" id="U1T-PV-c1P">
                             <connections>
-                                <segue destination="652-JV-L04" kind="modal" id="Pe4-qe-I0s"/>
+                                <segue destination="IQm-Dd-WVS" kind="push" id="KRT-ux-EgT"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -89,18 +89,20 @@
             <point key="canvasLocation" x="202" y="296"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="xgp-vA-UnW">
+        <scene sceneID="sbd-tp-poX">
             <objects>
-                <viewController id="652-JV-L04" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FFA-zv-hk1">
+                <viewController id="IQm-Dd-WVS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="253-ai-hUe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="xzb-zu-V4O"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oDx-bC-mhS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TeQ-kJ-ETO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="654" y="291"/>
+            <point key="canvasLocation" x="609" y="296"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.78268160990000002" green="0.027367571779999999" blue="0.059304745089999999" alpha="1" colorSpace="calibratedRGB"/>
 </document>
