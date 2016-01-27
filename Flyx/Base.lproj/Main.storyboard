@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="rR6-l7-e9f">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Movies View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="AX2-eb-dbD">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8XW-jL-bez" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="rR6-l7-e9f" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b48-sh-yXj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4DO-z6-3pO"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-254" y="296"/>
+        </scene>
+        <!--Now Playing-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MoviesViewController" customModule="Flyx" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,7 +35,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="127" id="bfb-5n-u77" customClass="MovieCell" customModule="Flyx" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="127"/>
+                                        <rect key="frame" x="0.0" y="92" width="320" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bfb-5n-u77" id="NtN-JB-Ao1">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="126.5"/>
@@ -56,13 +72,35 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Now Playing" id="ybh-u2-WL4">
+                        <barButtonItem key="rightBarButtonItem" title="Grid :D" id="U1T-PV-c1P">
+                            <connections>
+                                <segue destination="652-JV-L04" kind="modal" id="Pe4-qe-I0s"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
+                        <outlet property="gridButton" destination="U1T-PV-c1P" id="zeT-ew-rFe"/>
                         <outlet property="tableView" destination="6zU-wl-72I" id="RbZ-1A-zIs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="202" y="330"/>
+            <point key="canvasLocation" x="202" y="296"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xgp-vA-UnW">
+            <objects>
+                <viewController id="652-JV-L04" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FFA-zv-hk1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oDx-bC-mhS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="654" y="291"/>
         </scene>
     </scenes>
 </document>
