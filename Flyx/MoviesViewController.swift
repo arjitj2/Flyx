@@ -10,12 +10,12 @@ import UIKit
 import AFNetworking
 import MBProgressHUD
 
-class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchResultsUpdating {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var gridButton: UIBarButtonItem!
     
-    
+    var searchController: UISearchController!
     var movies: [NSDictionary]?
     
     override func viewDidLoad() {
@@ -23,9 +23,16 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         tableView.dataSource = self
         tableView.delegate = self
-
-        // Do any additional setup after loading the view.
         
+        searchController = UISearchController(searchResultsController: nil)
+        searchController.searchResultsUpdater = self
+        searchController.dimsBackgroundDuringPresentation = false
+        
+        searchController.searchBar.sizeToFit()
+        tableView.tableHeaderView = searchController.searchBar
+        
+        definesPresentationContext = true
+
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
         let url = NSURL(string:"https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")
         let request = NSURLRequest(URL: url!)
@@ -146,6 +153,18 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                 refreshControl.endRefreshing()	
         });
         task.resume()
+    }
+    
+    var filteredData: [String]!
+    
+    func updateSearchResultsForSearchController(searchController: UISearchController) {
+        if let searchText = searchController.searchBar.text {
+            filteredData = searchText.isEmpty ? movies : movies.filter({(dataString: String) -> Bool in
+                return dataString.rangeOfString(searchText, options: .CaseInsensitiveSearch) != nil
+            })
+            
+            tableView.reloadData()
+        }
     }
 
     /*

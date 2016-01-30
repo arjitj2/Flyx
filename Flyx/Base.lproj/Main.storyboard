@@ -72,36 +72,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Now Playing" id="ybh-u2-WL4">
-                        <barButtonItem key="rightBarButtonItem" title="Grid :D" id="U1T-PV-c1P">
-                            <connections>
-                                <segue destination="IQm-Dd-WVS" kind="push" id="KRT-ux-EgT"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Now Playing" id="ybh-u2-WL4"/>
                     <connections>
-                        <outlet property="gridButton" destination="U1T-PV-c1P" id="zeT-ew-rFe"/>
                         <outlet property="tableView" destination="6zU-wl-72I" id="RbZ-1A-zIs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="202" y="296"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="sbd-tp-poX">
-            <objects>
-                <viewController id="IQm-Dd-WVS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="253-ai-hUe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="xzb-zu-V4O"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TeQ-kJ-ETO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="609" y="296"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.78268160990000002" green="0.027367571779999999" blue="0.059304745089999999" alpha="1" colorSpace="calibratedRGB"/>
