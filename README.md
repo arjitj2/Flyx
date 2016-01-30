@@ -17,19 +17,15 @@ The following **optional** features are implemented:
 
 - [ ] User sees an error message when there's a networking error.
 - [ ] Movies are displayed using a CollectionView AS WELL AS a TableView.
-- [ ] User can search for a movie.
+- [x] User can search for a movie.
 - [ ] All images fade in as they are loading.
 - [ ] Customize the UI.
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/9j75Dck.gif?1' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/35pUMdL.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
