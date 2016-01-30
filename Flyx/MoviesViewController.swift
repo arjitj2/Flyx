@@ -158,13 +158,13 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     var filteredData: [String]!
     
     func updateSearchResultsForSearchController(searchController: UISearchController) {
-        if let searchText = searchController.searchBar.text {
-//            filteredData = searchText.isEmpty ? movies : movies.filter({(dataString: String) -> Bool in
-//                return dataString.rangeOfString(searchText, options: .CaseInsensitiveSearch) != nil
-//            })
-            
-            tableView.reloadData()
-        }
+//        if let searchText = searchController.searchBar.text {
+////            filteredData = searchText.isEmpty ? movies : movies.filter({(dataString: String) -> Bool in
+////                return dataString.rangeOfString(searchText, options: .CaseInsensitiveSearch) != nil
+////            })
+//            
+//            tableView.reloadData()
+//        }
     }
 
     /*
