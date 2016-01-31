@@ -26,7 +26,7 @@
                   moduleName = "Flyx"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/arjit/Google%20Drive/UIUC/Freshman%20Year/Projects/CodePath/Flyx/Flyx/MoviesViewController.swift"
-                  timestampString = "475812666.464438"
+                  timestampString = "475903503.43276"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -41,7 +41,7 @@
                   moduleName = "Flyx"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/arjit/Google%20Drive/UIUC/Freshman%20Year/Projects/CodePath/Flyx/Flyx/MoviesViewController.swift"
-                  timestampString = "475812666.464728"
+                  timestampString = "475903503.432921"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -56,7 +56,7 @@
                   moduleName = "Flyx"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/arjit/Google%20Drive/UIUC/Freshman%20Year/Projects/CodePath/Flyx/Flyx/MoviesViewController.swift"
-                  timestampString = "475812666.464877"
+                  timestampString = "475903503.433005"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -64,6 +64,54 @@
                   offsetFromSymbolStart = "19">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flyx/MoviesViewController.swift"
+            timestampString = "475902993.551806"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flyx/DetailViewController.swift"
+            timestampString = "475904453.050577"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flyx/DetailViewController.swift"
+            timestampString = "475904652.930852"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

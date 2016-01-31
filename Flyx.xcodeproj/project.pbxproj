@@ -13,6 +13,7 @@
 		33BF9D641C4F43D000B91D0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BF9D621C4F43D000B91D0F /* LaunchScreen.storyboard */; };
 		33BF9D6C1C4F474E00B91D0F /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BF9D6B1C4F474E00B91D0F /* MoviesViewController.swift */; };
 		33BF9D6F1C51DC8E00B91D0F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BF9D6E1C51DC8E00B91D0F /* MovieCell.swift */; };
+		33EB2B1B1C5D82BC007A60BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB2B1A1C5D82BC007A60BC /* DetailViewController.swift */; };
 		E7D1712973BC6EA727A45F9F /* Pods_Flyx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E191E496AF24D843EF6790EA /* Pods_Flyx.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		33BF9D651C4F43D000B91D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33BF9D6B1C4F474E00B91D0F /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		33BF9D6E1C51DC8E00B91D0F /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		33EB2B1A1C5D82BC007A60BC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E191E496AF24D843EF6790EA /* Pods_Flyx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flyx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				33BF9D6B1C4F474E00B91D0F /* MoviesViewController.swift */,
+				33EB2B1A1C5D82BC007A60BC /* DetailViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				33BF9D5A1C4F43D000B91D0F /* AppDelegate.swift in Sources */,
 				33BF9D6C1C4F474E00B91D0F /* MoviesViewController.swift in Sources */,
 				33BF9D6F1C51DC8E00B91D0F /* MovieCell.swift in Sources */,
+				33EB2B1B1C5D82BC007A60BC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
