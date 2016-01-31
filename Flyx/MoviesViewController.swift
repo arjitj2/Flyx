@@ -115,6 +115,11 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         let imageURL = NSURL(string: base_url + poster_path)
         
+        cell.selectionStyle = .Gray
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = UIColor.grayColor()
+        cell.selectedBackgroundView = backgroundView
+        
         cell.titleLabel.text = title
         cell.overviewLabel.text = overview
         cell.posterView.setImageWithURL(imageURL!)
